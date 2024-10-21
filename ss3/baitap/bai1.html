@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buổi 3 bài 1</title>
+    <style>
+        /* form 1 */
+        .form {
+            border: 1px;
+            background-color: aquamarine;
+            width: 40%;
+        }
+
+        .content {
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .caption {
+            color: white;
+            background-color: orange;
+        }
+
+        /* ================================== */
+        /* form2 */
+        .caption2 {
+            color: blue;
+            background-color: aquamarine;
+        }
+
+        .form2 {
+            border: 1px;
+            background-color: white;
+            width: 40%;
+        }
+
+        .content2 {
+            background-color: gold;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form"> <!-- form 1 -->
+        <div class="content">
+            <form action="">
+                <h2 class="caption">Sở thích của bạn</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="color: blue;" align="right">
+                                <label for="test">Họ và tên</label>
+                            <td colspan="2">
+                                <input type="text" id="test" name="yourname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue;" align="right">
+                                <label for="test1">Email</label>
+                            </td>
+                            <td colspan="2">
+                                <input type="text" id="test1" name="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue;" align="right">
+                                <label for="sothich">Sở thích</label>
+                            </td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Thể thao
+                            </td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Âm nhạc
+                            </td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Đọc sách
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Lướt web
+                            </td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Chơi game
+                            </td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Điện ảnh
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td style="color: red;">
+                                <input type="checkbox" name="Sở thích">Du lịch
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <!-- <button>Gửi thông tin</button> -->
+                                 <input type="submit" value="gửi thông tin">
+                            </td>
+                            <td>
+                                <!-- <button>Nhập lại</button> -->
+                                 <input type="reset" value="nhập lại">
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </form>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <!-- ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ -->
+    <div class="form2">
+        <div class="content2">
+            <form action="">
+                <table>
+                    <h1 class="caption2">Đăng ký học viên</h1>
+                    <tbody>
+                        <tr>
+                            <td style="color: blue;">
+                                <label for="name">Họ và tên</label>
+                            </td>
+                            <td colspan="2">
+                                <input type="text" id="name" name="name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue;">
+                                <label for="day">ngày sinh</label>
+                            </td>
+                            <td colspan="2">
+                                <input type="text" id="day" name="day">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue;">giới tính</td>
+                            <td>
+                                <input type="radio" name="gender">nam</input>
+                            <td>
+                                <input type="radio" name="gender">nữ</input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="color: blue;">
+                                <label for="diachi">Địa chỉ</label>
+                            </td>
+                            <td>
+                                <textarea name="diachi" id="diachi"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td style="color: blue;">lop</td>
+                                <td>
+                                    <select name="" id="">
+                                        <option value=""disable selected> -chon lop-</option>
+                                        <option value="">Lop 1</option>
+                                        <option value="">Lop 2</option>
+                                        <option value="">Lop 2</option>
+                                        <option value="">Lop 2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: blue;">
+                                    <label for="email">E-mail</label>
+                                </td>
+                                <td>
+                                    <input type="email" id="email">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="color: blue;">
+                                    <label for="dienthoai">Dien thoai</label>
+                                </td>
+                                <td>
+                                    <input type="number" id="dienthoai">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <!-- <button>Dang ki</button> -->
+                                    <!-- <button>Nhap lai</button> -->
+                                    <input type="submit" value="dang ky">
+                                    <input type="reset" value="nhap lai">
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
