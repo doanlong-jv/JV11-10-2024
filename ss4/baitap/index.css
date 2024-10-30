@@ -1,0 +1,19 @@
+body {
+    width: 70%;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 40px; 
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.dv{
+    color: red;
+    /* margin-right: 50cap; */
+    /* border: 5px; */
+}
+.dv2{
+    background-color: yellow;
+    /* marin-right: 50cap; */
+    /* border: 13px; */
+}

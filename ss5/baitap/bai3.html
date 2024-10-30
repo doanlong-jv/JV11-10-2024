@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box_one {
+        width: 300px;
+        height: 200px;
+        background-color: rgb(168, 202, 211);
+        position: relative;
+      }
+      .box_two {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(45, 233, 25);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        transition: all 3s ease;
+      }
+
+      .box_one:hover .box_two {
+        /* top: 50px; 
+        left: 150px; 
+        background-color: rgb(255, 69, 0);  */
+        animation-name: moveandchangecolor;
+        animation-duration: 5s;
+        /*thời gian thực hiện hiệu ứng*/
+        animation-iteration-count: infinite;
+      }
+      @keyframes moveandchangecolor {
+        0% {
+          top: 10px;
+          left: 10px;
+          background-color: green;
+          /* border-radius: 20px; */
+        }
+        50% {
+          top: 100px;
+          left: 60px;
+          background-color: rgb(205, 142, 142);
+          border-radius: 20px;
+        }
+        100% {
+          top: 10px;
+          left: 110px;
+          background-color: rgb(205, 142, 142);
+          border-radius: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- transition -->
+    <div class="box_one">
+      <div class="box_two"></div>
+    </div>
+  </body>
+</html>
