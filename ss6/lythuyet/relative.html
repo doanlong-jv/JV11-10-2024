@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* nếu 1 khối có giá trị bằng relative thì nó sẽ lấy vị trí ban đầu làm gốc
+        top: 
+        left:
+        right:
+        bottom:
+         */
+
+        .relative{  
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            left: 100px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+    </style>
+<body>
+    <div class="relative"> </div>
+    <div class="box"></div>
+</body>
+</html>
