@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const currentYear = 2024;
+        let birthYear = Number(prompt('nhap nam sinh cua ban: '));
+        if (birthYear<1900) {
+           console.log('ma khong hop le');
+           
+        }else{
+            if (birthYear>2004) {
+                console.log('ma khong hop le');
+                
+            }else{
+                const age= currentYear-birthYear;
+               console.log('so tuoi cua ban la: ',age);
+            }
+        }
+    </script>
+</body>
+</html>
